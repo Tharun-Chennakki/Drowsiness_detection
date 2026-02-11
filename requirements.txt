@@ -1,7 +1,0 @@
-streamlit
-opencv-python
-ultralytics
-mediapipe
-firebase-admin
-pyrebase4
-numpy
