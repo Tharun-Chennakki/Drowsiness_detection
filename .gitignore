@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+drowsiness_env/
+
+# Node
+node_modules/
+
+# VS Code
+.vscode/
