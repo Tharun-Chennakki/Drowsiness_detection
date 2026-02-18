@@ -21,7 +21,7 @@ const firebaseConfig = {
 };
 
 // --- BACKEND API URL ---
-const API_BASE_URL = "https://drowsiness-detection-r66j.onrender.com";
+const API_URL = "https://chennakki-tharun95-drowsiness-detection.hf.space/detect";
 
 
 // --- INITIALIZE FIREBASE ---
