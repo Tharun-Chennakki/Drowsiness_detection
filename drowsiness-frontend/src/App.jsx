@@ -357,7 +357,7 @@ const DrivingPage = ({ setPage }) => {
         </h3>
       </div>
 
-      <div className={`relative aspect-video bg-black rounded-lg overflow-hidden border-4 transition-colors duration-300 ${isDrowsy ? 'border-red-500' : 'border-green-500'}`}>
+      <div className={`relative bg-black rounded-lg overflow-hidden border-4 transition-colors duration-300 h-[70vh] md:h-auto md:aspect-video ${isDrowsy ? 'border-red-500' : 'border-green-500'}`}>
         <video ref={videoRef} autoPlay playsInline muted className="absolute top-0 left-0 w-full h-full object-cover" style={{ transform: 'scaleX(-1)' }} />
         <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-full object-cover" />
       </div>
